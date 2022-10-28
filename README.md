@@ -9,12 +9,12 @@ This management software mainly focuses on basic operations in a library like ad
 AIM:
 
 The prime objectives of this project are:
-●	Implementing a library management software
-●	Using MySQL databases for working with library data such as
-        o	Keeping records of books
-        o	Keeping records of members
-        o	Easily Search books
-        o	Easily Search Library Members
-        o	Easily Issue/Return Books
+● Implementing a library management software
+● Using MySQL databases for working with library data such as
+oKeeping records of books
+oKeeping records of members
+oEasily Search books
+oEasily Search Library Members
+oEasily Issue/Return Books
 
 In addition to above primary objectives, the aim of the project is to maintain its complexity to the easiest level so that the operator of the software can carry out all the operators with ease.
