@@ -1,0 +1,15 @@
+#SQL QUERY
+
+
+>For creating database
+create database library;
+use library;
+
+>for creating table bookrecord in library
+create table bookrecord (bno varchar (8) primary key, bname varchar (100), auth varchar (50), price integer, publ varchar (50), qty integer, date date);
+
+>for creating table member in library
+create table member (mno varchar (8) primary key, mname varchar (100), mob int, date date, addr varchar (50));
+
+>for creating table issue in library
+create table issue (bno varchar (8) primary key, mno varchar (8), d_o_issue date, d_o_ret date);
