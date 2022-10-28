@@ -1,0 +1,57 @@
+#DATA DICTIONARY
+
+>>> MODULES USED
+
+-	mysql.connector: It is use for database connectivity, i.e., to connect python to MySQL. Database connectivity refers to connection between an application and a database system.
+
+-	datetime: In Python, date and time are not a data type of its own, but a module named datetime can be imported to work with the date as well as time. Datetime module supplies classes to work with date and time. These classes provide a number of functions to deal with dates, times and time intervals.
+
+
+>>> USER DEFINED FUNCTIONS(UDFs)
+
+•	Data File: book
+
+-	Display(): it is use to display the records of all the books
+
+-	InsertData(): it is use to add record of a particular book
+
+-	 DeleteBook(): it is use to delete the record of a particular book
+
+-	SearchBookRec(): it is use to search the records of a particular book
+
+-	UpdateBook(): it is use to update the information related to a particular book
+
+•	Data File: member
+
+-	Display(): it is use to display the information of a particular member
+
+-	InsertMember(): it is use to add record of a new member
+
+-	DeleteMember(): it is use to delete record of a particular member
+
+-	SearchMember(): it is use to search information related to a particular member
+
+•	Data File: issue
+
+-	ShowIssuedBooks(): it shows all the books which are issued by the students
+
+-	IssueBook(): it is use to record the information about the books which are being issued
+
+-	ReturnBook(): it is used to delete the record of an issued book when it is returned to the library back
+
+
+>>>	DATA FILES
+
+•	book.py: this data file has various user defined functions that provides all the options to work with the displaying, inserting, searching, deleting or updating the information related to the books.
+
+•	member.py: it will handle all the operations that can be executed with the member records such as display, add, search or delete.
+
+•	issue.py: it defines what information is recorded when a book is issued to a member or returned to the library such as book id, member id, issue date return date
+
+•	menulib.py: it is importing all the data files as modules and designing the sub menu programs
+
+•	library management.py: it is the starting point of execution of the program
+
+•	__init__.py: it is the file which tells python that directory is a package
+
+
