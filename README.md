@@ -14,14 +14,14 @@ The prime objectives of this project are:
 
 ● Using MySQL databases for working with library data such as
 
-  o Keeping records of books
+    o Keeping records of books
 
-  o Keeping records of members
+    o Keeping records of members
 
-  o Easily Search books
+    o Easily Search books
 
-  o Easily Search Library Members
+    o Easily Search Library Members
 
-  o Easily Issue/Return Books
+    o Easily Issue/Return Books
 
 In addition to above primary objectives, the aim of the project is to maintain its complexity to the easiest level so that the operator of the software can carry out all the operators with ease.
